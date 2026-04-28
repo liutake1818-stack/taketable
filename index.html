@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>塔客餐桌 | TAKK Private Boutique</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Noto+Sans+TC:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <span class="logo-t">T</span><span class="logo-akk">AKK</span>
+        <span class="logo-sub">PRIVATE BOUTIQUE</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">關於我們</a></li>
+        <li><a href="#brands">精選品牌</a></li>
+        <li><a href="#stories">品牌故事</a></li>
+        <li><a href="#social">社群</a></li>
+        <li><a href="#contact" class="nav-cta">聯繫我們</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="選單">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="cover_photo.jpeg" alt="TAKK 餐桌封面" class="hero-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">TAKK Private Boutique</p>
+      <h1 class="hero-title">
+        為你的餐桌<br />
+        <em>添上一抹精緻</em>
+      </h1>
+      <p class="hero-desc">
+        歡迎來到塔客餐桌，一個專屬於餐具與美學愛好者的空間。<br />
+        我們精心挑選來自世界各地的頂級餐具品牌，<br />
+        為每一次用餐提供美好的儀式感。
+      </p>
+      <div class="hero-actions">
+        <a href="https://shopee.tw/ariescfg" target="_blank" class="btn btn-primary">前往選購</a>
+        <a href="#about" class="btn btn-outline">了解更多</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>向下探索</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ========== BRAND STORY ========== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <span class="section-label">品牌故事</span>
+          <h2 class="section-title">你的餐桌美學，<br />從塔客餐桌開始</h2>
+          <p>
+            塔客餐桌誕生於一個簡單的信念：每一次用餐，都值得被認真對待。無論是清晨一杯白開水的靜謐時光，還是節慶聚會的精緻佈置，餐具不只是工具，更是生活美學的延伸。
+          </p>
+          <p>
+            我們深信，當你端起一只有故事的杯子，當叉子的重量恰到好處地落在掌心，那個瞬間，日常便昇華成了儀式。
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num">4+</span>
+              <span class="stat-label">頂級品牌</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">100+</span>
+              <span class="stat-label">精選商品</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">179</span>
+              <span class="stat-label">社群追蹤者</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual">
+          <div class="about-img-wrap">
+            <img src="post_spring_break.jpeg" alt="塔客餐桌品牌故事" />
+          </div>
+          <div class="about-quote">
+            <p>「無論是簡約的日常用餐，還是精緻的節慶聚會，希望能為您找到完美的餐桌搭配。」</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FEATURED BRANDS / SERVICE CARDS ========== -->
+  <section class="brands" id="brands">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">精選品牌</span>
+        <h2 class="section-title">世界頂級餐具，<br />為您嚴選</h2>
+        <p class="section-desc">我們從全球精選最具代表性的餐具品牌，每一件商品都承載著工藝師的心血與歲月的沉澱。</p>
+      </div>
+      <div class="brands-grid">
+
+        <div class="brand-card">
+          <div class="brand-card-img">
+            <img src="post_crumbler_detail.jpeg" alt="WMF 德國餐具" />
+            <div class="brand-card-overlay">
+              <a href="https://shopee.tw/ariescfg" target="_blank" class="brand-shop-btn">立即選購</a>
+            </div>
+          </div>
+          <div class="brand-card-body">
+            <div class="brand-origin">🇩🇪 德國</div>
+            <h3 class="brand-name">WMF</h3>
+            <p class="brand-desc">經典工藝，不銹鋼餐具的代表品牌。從專業桌上型碎屑清理器到精緻刀叉，每一件都是 Fine Dining 的標配。</p>
+            <div class="brand-tags">
+              <span>#高級餐飲</span>
+              <span>#不銹鋼工藝</span>
+              <span>#專業餐具</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="brand-card featured">
+          <div class="brand-card-badge">熱門推薦</div>
+          <div class="brand-card-img">
+            <img src="post_duralex_morning.jpeg" alt="Duralex 法國玻璃杯" />
+            <div class="brand-card-overlay">
+              <a href="https://shopee.tw/ariescfg" target="_blank" class="brand-shop-btn">立即選購</a>
+            </div>
+          </div>
+          <div class="brand-card-body">
+            <div class="brand-origin">🇫🇷 法國</div>
+            <h3 class="brand-name">Duralex</h3>
+            <p class="brand-desc">耐摔又時尚的杯碗盤。Picardie 系列以其獨特的菱格紋理，成為生活美學愛好者的必備單品。</p>
+            <div class="brand-tags">
+              <span>#耐摔玻璃</span>
+              <span>#生活美學</span>
+              <span>#日常精緻</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="brand-card">
+          <div class="brand-card-img">
+            <img src="cover_photo.jpeg" alt="Wedgwood 英國瓷器" />
+            <div class="brand-card-overlay">
+              <a href="https://shopee.tw/ariescfg" target="_blank" class="brand-shop-btn">立即選購</a>
+            </div>
+          </div>
+          <div class="brand-card-body">
+            <div class="brand-origin">🇬🇧 英國</div>
+            <h3 class="brand-name">Wedgwood</h3>
+            <p class="brand-desc">百年傳承的優雅碗盤。自 1759 年創立以來，Wedgwood 始終代表著英式精緻生活的極致品味。</p>
+            <div class="brand-tags">
+              <span>#百年工藝</span>
+              <span>#英式優雅</span>
+              <span>#骨瓷餐具</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="brand-card">
+          <div class="brand-card-img">
+            <img src="photo_food1.jpeg" alt="Vista Alegre 葡萄牙瓷器" />
+            <div class="brand-card-overlay">
+              <a href="https://shopee.tw/ariescfg" target="_blank" class="brand-shop-btn">立即選購</a>
+            </div>
+          </div>
+          <div class="brand-card-body">
+            <div class="brand-origin">🇵🇹 葡萄牙</div>
+            <h3 class="brand-name">Vista Alegre</h3>
+            <p class="brand-desc">百年歷史的瓷器藝術，經典手工獨一無二。每一件作品都是藝術家的心血結晶，為您的餐桌帶來獨特的藝術氣息。</p>
+            <div class="brand-tags">
+              <span>#手工瓷器</span>
+              <span>#藝術餐具</span>
+              <span>#限量收藏</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FEATURED STORIES ========== -->
+  <section class="stories" id="stories">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">塔客日誌</span>
+        <h2 class="section-title">每一天，<br />都是一個故事</h2>
+      </div>
+      <div class="stories-grid">
+
+        <article class="story-card story-large">
+          <div class="story-img">
+            <img src="post_crumbler_detail.jpeg" alt="WMF 碎屑清理器" />
+          </div>
+          <div class="story-body">
+            <div class="story-meta">
+              <span class="story-date">2026 / 04 / 27</span>
+              <span class="story-cat">冷知識</span>
+            </div>
+            <h3>如果你不認識這支，<br />別說你懂什麼叫「精緻優雅」</h3>
+            <p>它是桌邊導板（Crumber）。懂的人，看它滑過桌面會得心滿意；不懂的人，還以為服務生從口袋要拿鋼筆幫你簽單。</p>
+            <p>Fine Dining 一般都把和牛跟餐廳指標，但真正懂行的，都在看服務生口袋裡插的是哪一支。</p>
+            <div class="story-product">
+              <span>商品：</span>WMF 專業桌上型碎屑清理器 Neutral 系列
+            </div>
+            <a href="https://s.shopee.tw/1Lc9qVCIYi" target="_blank" class="story-link">查看商品 →</a>
+          </div>
+        </article>
+
+        <article class="story-card">
+          <div class="story-img">
+            <img src="post_duralex_morning.jpeg" alt="Duralex 早晨" />
+          </div>
+          <div class="story-body">
+            <div class="story-meta">
+              <span class="story-date">2026 / 03 / 21</span>
+              <span class="story-cat">生活美學</span>
+            </div>
+            <h3>初醒 · 白開水</h3>
+            <p>有些日子，只需要一杯水，就很剛好。早上的節奏其實很安靜，那個瞬間反而讓人慢了下來。</p>
+            <div class="story-product">
+              <span>商品：</span>Duralex Picardie 系列 250ml
+            </div>
+            <a href="https://shopee.tw/ariescfg" target="_blank" class="story-link">查看商品 →</a>
+          </div>
+        </article>
+
+        <article class="story-card">
+          <div class="story-img">
+            <img src="post_spring_break.jpeg" alt="Spring Break" />
+          </div>
+          <div class="story-body">
+            <div class="story-meta">
+              <span class="story-date">2026 / 03 / 16</span>
+              <span class="story-cat">品牌動態</span>
+            </div>
+            <h3>Spring Break · 員工小旅行</h3>
+            <p>三月底的天氣開始變得溫暖，街角的花也悄悄開了起來。塔客餐桌的小夥伴們決定趁春光正好，一起出去走走、吃點好東西、看看風景，讓生活靈感回來。</p>
+            <a href="https://www.facebook.com/takktraveltw" target="_blank" class="story-link">查看更多 →</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SOCIAL PROOF ========== -->
+  <section class="social-proof" id="social">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">社群迴響</span>
+        <h2 class="section-title">餐桌美學，<br />從這裡開始</h2>
+      </div>
+
+      <div class="reels-showcase">
+        <div class="reel-item">
+          <div class="reel-thumb">
+            <img src="post_wmf_crumbler.jpeg" alt="Reel 1" />
+            <div class="reel-play">▶</div>
+            <div class="reel-views">739 次觀看</div>
+          </div>
+          <p>新台幣 250 元，可以作 70 杯冰紅茶</p>
+        </div>
+        <div class="reel-item">
+          <div class="reel-thumb">
+            <img src="post_crumbler_detail.jpeg" alt="Reel 2" />
+            <div class="reel-play">▶</div>
+            <div class="reel-views">321 次觀看</div>
+          </div>
+          <p>為什麼高級餐廳有很多小心商品</p>
+        </div>
+        <div class="reel-item">
+          <div class="reel-thumb">
+            <img src="post_duralex_morning.jpeg" alt="Reel 3" />
+            <div class="reel-play">▶</div>
+            <div class="reel-views">184 次觀看</div>
+          </div>
+          <p>塔客日誌 2026/4/17 — 純廣告</p>
+        </div>
+        <div class="reel-item">
+          <div class="reel-thumb">
+            <img src="cover_photo.jpeg" alt="Reel 4" />
+            <div class="reel-play">▶</div>
+            <div class="reel-views">47 次觀看</div>
+          </div>
+          <p>塔客日誌 2026/4/20 — 湯匙</p>
+        </div>
+      </div>
+
+      <div class="testimonials">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">「第一次用 WMF 的碎屑清理器，才知道原來 Fine Dining 的細節在這裡。塔客餐桌讓我對餐具有了全新的認識。」</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">A</div>
+            <div>
+              <strong>餐具愛好者 A</strong>
+              <span>台北</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card featured-testimonial">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">「Duralex Picardie 系列真的是日常必備！耐摔又好看，早上喝水的儀式感瞬間提升了。謝謝塔客餐桌的推薦！」</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">B</div>
+            <div>
+              <strong>生活美學愛好者 B</strong>
+              <span>新北</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">「在塔客餐桌買了 Wedgwood 的碗盤，每次擺桌都像在開餐廳。朋友來家裡吃飯都問我在哪買的！」</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">C</div>
+            <div>
+              <strong>居家美學愛好者 C</strong>
+              <span>台中</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fb-follow">
+        <a href="https://www.facebook.com/takktraveltw" target="_blank" class="fb-btn">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+          </svg>
+          追蹤塔客餐桌 Facebook
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT FORM ========== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <span class="section-label">聯繫我們</span>
+          <h2 class="section-title">有任何問題，<br />歡迎與我們聯繫</h2>
+          <p>無論是商品諮詢、訂購問題，還是想了解更多品牌故事，我們都很樂意為您解答。</p>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div>
+                <strong>地址</strong>
+                <p>台北市安居街 65 號 1 樓<br />Taipei, Taiwan 106</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📞</div>
+              <div>
+                <strong>電話 / WhatsApp</strong>
+                <p><a href="tel:+886965386069">+886 965 386 069</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">✉️</div>
+              <div>
+                <strong>電子郵件</strong>
+                <p><a href="mailto:liutake1818@gmail.com">liutake1818@gmail.com</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">🛒</div>
+              <div>
+                <strong>線上購物</strong>
+                <p><a href="https://shopee.tw/ariescfg" target="_blank">shopee.tw/ariescfg</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap">
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="name">您的姓名 <span class="required">*</span></label>
+              <input type="text" id="name" name="name" placeholder="請輸入您的姓名" required />
+            </div>
+            <div class="form-group">
+              <label for="email">電子郵件 <span class="required">*</span></label>
+              <input type="email" id="email" name="email" placeholder="請輸入您的電子郵件" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">聯絡電話</label>
+              <input type="tel" id="phone" name="phone" placeholder="請輸入您的聯絡電話" />
+            </div>
+            <div class="form-group">
+              <label for="subject">詢問主題 <span class="required">*</span></label>
+              <select id="subject" name="subject" required>
+                <option value="" disabled selected>請選擇詢問主題</option>
+                <option value="product">商品諮詢</option>
+                <option value="order">訂購問題</option>
+                <option value="brand">品牌合作</option>
+                <option value="other">其他</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">訊息內容 <span class="required">*</span></label>
+              <textarea id="message" name="message" rows="5" placeholder="請輸入您的訊息..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">送出訊息</button>
+          </form>
+          <div class="form-success" id="formSuccess" style="display:none;">
+            <div class="success-icon">✓</div>
+            <h3>訊息已送出！</h3>
+            <p>感謝您的聯繫，我們將盡快回覆您。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="logo-t">T</span><span class="logo-akk">AKK</span>
+            <span class="logo-sub">PRIVATE BOUTIQUE</span>
+          </div>
+          <p>為你的餐桌添上一抹精緻。<br />你的餐桌美學，從塔客餐桌開始。</p>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/takktraveltw" target="_blank" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+            </a>
+            <a href="https://shopee.tw/ariescfg" target="_blank" aria-label="Shopee">🛒</a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>快速連結</h4>
+          <ul>
+            <li><a href="#about">關於我們</a></li>
+            <li><a href="#brands">精選品牌</a></li>
+            <li><a href="#stories">品牌故事</a></li>
+            <li><a href="#contact">聯繫我們</a></li>
+          </ul>
+        </div>
+        <div class="footer-brands-list">
+          <h4>精選品牌</h4>
+          <ul>
+            <li>WMF（德國）</li>
+            <li>Duralex（法國）</li>
+            <li>Wedgwood（英國）</li>
+            <li>Vista Alegre（葡萄牙）</li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>聯繫資訊</h4>
+          <p>台北市安居街 65 號 1 樓<br />Taipei, Taiwan</p>
+          <p><a href="tel:+886965386069">+886 965 386 069</a></p>
+          <p><a href="mailto:liutake1818@gmail.com">liutake1818@gmail.com</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 塔客餐桌 TAKK Private Boutique. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
